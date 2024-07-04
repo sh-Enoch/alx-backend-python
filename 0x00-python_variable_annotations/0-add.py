@@ -2,6 +2,6 @@
 """Basic annotation add."""
 
 
-def add(a: float, b:float) -> float:
+def add(a: float, b: float) -> float:
     """Add."""
     return a + b
