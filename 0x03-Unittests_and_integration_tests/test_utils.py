@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Test_utils."""
 import unittest
-import parameterized
-access_nested_map = __import__('utils').access_nested_map
+from parameterized import parameterized
+from utils import (access_nested_map)
 
 
 class TestAccessNestedMap(unittest.TestCase):
